@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    
     defaultConfig {
         applicationId "com.example.anurag.apiai"
         minSdkVersion 16
@@ -10,7 +10,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "API_KEY", API_KEY)
+        buildConfigField("String", "API", '"694f56c456684e28a09f0bf625cfc14e"')
     }
     buildTypes {
         release {

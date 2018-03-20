@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
             conn.setDoOutput(true);
             conn.setDoInput(true);
 
-            conn.setRequestProperty("Authorization", "Bearer "+BuildConfig.API_KEY);
+            conn.setRequestProperty("Authorization", "Bearer  694f56c456684e28a09f0bf625cfc14e");
             conn.setRequestProperty("Content-Type", "application/json");
 
             //Create JSONObject here
